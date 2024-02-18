@@ -1,0 +1,19 @@
+name: ItemGuard
+description: Protects items from cactus & lava damage.
+
+author: SavageAvocado
+website: https://www.savagedev.net
+
+main: net.savagedev.itemguard.ItemGuardPlugin
+api-version: 1.13
+version: ${version}
+
+commands:
+  itemguard:
+    description: Reload the plugin.
+    permission: itemguard.reload
+    usage: /<command> reload
+
+permissions:
+  itemguard.reload:
+    default: op
